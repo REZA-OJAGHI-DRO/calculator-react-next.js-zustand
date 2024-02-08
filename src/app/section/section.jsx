@@ -43,7 +43,7 @@ function Ar2() {
     const xm=useStore((state)=>state.xm)
     const xa=useStore((state)=>state.xa)
   return (
-    <article className="w-[100%] md:w-[60%] h-[50%] md:h-[75%] flex justify-center items-center flex-wrap gap-6 p-4 *:shadow-lg *:shadow-black ">
+    <article className="w-[100%] md:w-[60%] h-[50%] md:h-[75%] flex justify-center items-center flex-wrap gap-4 p-4 *:shadow-lg *:shadow-black ">
       <button onClick={x1} className="w-[25%] h-[20%] bg-[rgba(255,255,255,.5)] rounded-xl text-[2rem] hover:shadow-none hover:scale-95">
         1
       </button>
@@ -110,7 +110,7 @@ function Ar3() {
         }
     }
   return (
-    <article className="w-[100%] md:w-[40%] h-[30%] md:h-[75%] flex justify-center content-center md:items-center flex-wrap gap-6 p-10 md:p-4 *:shadow-lg *:shadow-black">
+    <article className="w-[100%] md:w-[40%] h-[30%] md:h-[75%] flex justify-center content-center md:items-center flex-wrap gap-4 p-10 md:p-4 *:shadow-lg *:shadow-black">
       <button onClick={xc} className="w-[19%] md:w-[35%] h-[46%] md:h-[20%] bg-[rgba(255,255,255,.5)] rounded-xl text-[2rem] hover:shadow-none hover:scale-95">c</button>
       <button onClick={xce} className="w-[19%] md:w-[35%] h-[46%] md:h-[20%] bg-[rgba(255,255,255,.5)] rounded-xl text-[2rem] hover:shadow-none hover:scale-95">ce</button>
       <button onClick={xp} className="w-[19%] md:w-[35%] h-[46%] md:h-[20%] bg-[rgba(255,255,255,.5)] rounded-xl text-[2rem] hover:shadow-none hover:scale-95">+</button>
